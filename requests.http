@@ -1,0 +1,11 @@
+
+## Cadastrar Alunos
+POST http://localhost:3000/alunos
+Content-Type: application/json
+
+{
+    "nome": "James Brown",
+    "endereco": "Avenida X",
+    "telefone": "(81) 9090-9090",
+    "email": "james@gmail.com"
+}
