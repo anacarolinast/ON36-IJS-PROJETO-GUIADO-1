@@ -1,17 +1,25 @@
 export class Aluno {
-    id: string;
-    email: string;
-    nome: string;
-    endereco: string;
-    telefone: string;
-    cursos: string[];
+  id: string;
+  nome: string;
+  matricula: string;
+  email: string;
+  endereco: string;
+  telefone: string;
+  cursos: string[];
 
-    constructor(id: string, email: string, nome: string, endereco: string, telefone: string, cursos: string[]) {
-        this.id = id;
-        this.email = email;
-        this.nome = nome;
-        this.endereco = endereco;
-        this.telefone = telefone;
-        this.cursos = cursos;
-    }
+  constructor(
+    nome: string,
+    matricula: string,
+    email: string,
+    endereco: string,
+    telefone: string,
+    cursos: string[] = [],
+  ) {
+    this.nome = nome;
+    this.matricula = matricula;
+    this.email = email;
+    this.endereco = endereco;
+    this.telefone = telefone;
+    this.cursos = cursos;
+  }
 }

@@ -5,7 +5,8 @@ Content-Type: application/json
 
 {
     "nome": "James Brown",
+    "matricula": "20008-TADS",
+    "email": "james@gmail.com",
     "endereco": "Avenida X",
-    "telefone": "(81) 9090-9090",
-    "email": "james@gmail.com"
+    "telefone": "(81) 9090-9090"
 }

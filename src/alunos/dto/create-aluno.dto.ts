@@ -1,17 +1,21 @@
-import {IsEmail, IsNotEmpty, IsString} from 'class-validator';
+import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
 
 export class CreateAlunoDto {
+  @IsString()
+  @IsNotEmpty()
+  nome: string;
 
-    @IsString()
-    nome: string;
+  @IsString()
+  @IsNotEmpty()
+  matricula: string;
 
-    @IsNotEmpty()
-    @IsEmail()
-    email: string;
+  @IsNotEmpty()
+  @IsEmail()
+  email: string;
 
-    @IsString()
-    endereco: string;
+  @IsString()
+  endereco: string;
 
-    @IsString()
-    telefone: string;
+  @IsString()
+  telefone: string;
 }
