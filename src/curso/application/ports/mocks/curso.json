@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0c22c4c5-ef8d-4f84-83f6-db7f355519f9",
+    "nome": "Nest-JS",
+    "descricao": "Introdução ao NestJS",
+    "cargaHoraria": 200,
+    "categoria": "Back-End",
+    "alunos": [
+      "e4187f81-b214-4cfc-9843-2e5e0fe4ce93"
+    ],
+    "professores": []
+  },
+  {
+    "id": "891e6898-48de-48ec-8980-9bb239e12a6b",
+    "nome": "Nest-JS",
+    "descricao": "Introdução ao NestJS",
+    "cargaHoraria": 200,
+    "categoria": "Back-End",
+    "alunos": [],
+    "professores": []
+  }
+]

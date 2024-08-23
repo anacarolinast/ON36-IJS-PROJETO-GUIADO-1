@@ -1,0 +1,14 @@
+[
+  {
+    "id": "e4187f81-b214-4cfc-9843-2e5e0fe4ce93",
+    "nome": "Joana",
+    "matricula": "92R9I2FWM",
+    "email": "Avenida Y",
+    "endereco": "joana@gmail.com",
+    "telefone": "8198346045",
+    "anoNascimento": 2004,
+    "cursos": [
+      "0c22c4c5-ef8d-4f84-83f6-db7f355519f9"
+    ]
+  }
+]
