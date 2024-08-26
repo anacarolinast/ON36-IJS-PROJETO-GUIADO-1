@@ -1,12 +1,9 @@
+# POST http://localhost:3000/aluno/matricular
+# Content-Type: application/json
 
-## Cadastrar Alunos
-POST http://localhost:3000/alunos
-Content-Type: application/json
+# {
+#   "alunoId": "e4187f81-b214-4cfc-9843-2e5e0fe4ce93",
+#   "cursoId": "0c22c4c5-ef8d-4f84-83f6-db7f355519f9"
+# }
 
-{
-    "nome": "James Brown",
-    "matricula": "20008-TADS",
-    "email": "james@gmail.com",
-    "endereco": "Avenida X",
-    "telefone": "(81) 9090-9090"
-}
+PATCH 
